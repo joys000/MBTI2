@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <div>
+    <main style={{ textAlign: "center", padding: "100px" }}>
       <h1>MBTI + 연애 테스트</h1>
-      <a href="/start">시작하기</a>
-    </div>
+      <p>지금 당신의 연애 성향을 알아보세요!</p>
+      <a href="/start" style={{ fontSize: "18px", color: "blue" }}>시작하기</a>
+    </main>
   );
 }
