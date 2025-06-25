@@ -1,8 +1,11 @@
-export default function SurveyPage() {
+// pages/survey.tsx
+import Link from 'next/link';
+
+export default function Survey() {
   return (
     <main style={{ textAlign: "center", padding: "100px" }}>
-      <h1>설문 페이지</h1>
-      <p>설문 문항이 여기에 표시됩니다.</p>
+      <h2>설문 진행 중...</h2>
+      <Link href="/result">결과 보러가기</Link>
     </main>
   );
 }
