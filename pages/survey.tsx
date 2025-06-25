@@ -1,7 +1,8 @@
-export default function Survey() {
+export default function SurveyPage() {
   return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      설문 페이지 (추후 구현 예정)
-    </div>
+    <main style={{ padding: '30px', textAlign: 'center' }}>
+      <h1>설문 페이지</h1>
+      <p>여기에 설문 로직을 넣으세요</p>
+    </main>
   );
 }

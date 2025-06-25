@@ -1,7 +1,8 @@
-export default function Result() {
+export default function ResultPage() {
   return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      결과 페이지 (추후 구현 예정)
-    </div>
+    <main style={{ padding: '30px', textAlign: 'center' }}>
+      <h1>결과 페이지</h1>
+      <p>여기에 결과를 출력하세요</p>
+    </main>
   );
 }
