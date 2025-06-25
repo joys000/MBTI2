@@ -1,9 +1,11 @@
-export default function Start() {
+// pages/start.tsx
+
+export default function StartPage() {
   return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      <h2>성별을 선택해주세요</h2>
-      <button style={{ margin: "10px" }}>여자</button>
-      <button style={{ margin: "10px" }}>남자</button>
+    <div style={{ padding: '30px', textAlign: 'center' }}>
+      <h1>MBTI 연애 유형 테스트 - 시작</h1>
+      <p>설문을 시작하려면 아래 버튼을 눌러주세요.</p>
+      <a href="/survey" style={{ fontSize: '18px', color: 'blue' }}>설문 시작</a>
     </div>
   );
 }
