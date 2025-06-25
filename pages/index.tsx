@@ -1,4 +1,3 @@
-// pages/index.tsx
 export default function Home() {
   return (
     <main style={{ textAlign: "center", padding: "100px" }}>
