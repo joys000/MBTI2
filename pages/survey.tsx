@@ -1,11 +1,11 @@
-// pages/survey.tsx
-import Link from 'next/link';
-
+import { useRouter } from 'next/router';
 export default function Survey() {
+  const router = useRouter();
+  const gender = router.query.gender;
   return (
-    <main style={{ textAlign: "center", padding: "100px" }}>
-      <h2>설문 진행 중...</h2>
-      <Link href="/result">결과 보러가기</Link>
-    </main>
+    <div>
+      <h1>{gender} 설문 시작</h1>
+      <p>여기에 설문 문항 로직을 추가하세요.</p>
+    </div>
   );
 }
